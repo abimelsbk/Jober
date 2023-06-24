@@ -18,9 +18,9 @@ def train_model(X, y):
     print("Validation Accuracy:", accuracy)
     
     return model
-    model = RandomForestClassifier()
-    model.fit(X, y)
-    return model
+    # model = RandomForestClassifier()
+    # model.fit(X, y)
+    # return model
 
 def train_and_evaluate_model(features, labels):
     X_train, X_test, y_train, y_test = train_test_split(features, labels, test_size=0.2)
