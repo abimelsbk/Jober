@@ -1,0 +1,61 @@
+h1 {
+    text-align: center;
+}
+
+.search-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#jobResultsContainer {
+    margin: 20px;
+}
+
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.search-box {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#jobSearchInput {
+    width: 70%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#searchButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#searchButton:hover {
+    background-color: #45a049;
+}
+
+#jobResultsContainer {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+#jobResultsContainer h3 {
+    margin-top: 0;
+}
+
+#jobResultsContainer p {
+    margin-bottom: 10px;
+}
